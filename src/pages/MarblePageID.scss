@@ -1,0 +1,340 @@
+
+
+
+.marblePageId{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 20rem;
+    .identification{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        .row{
+            width: 100%;
+            margin-top: 3rem;
+            .title{
+                width: 100%;
+                border-bottom: 1px solid #cfcccc;
+                
+            }
+        }
+        .detailBox{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            margin-top: 2rem;
+            .imgBox{
+                width: 50%;
+                height: 100%;
+                padding: 1rem;
+                border: 1px solid #eeeeee;
+                background-color: rgb(235, 236, 236);
+            }
+            .infoBox{
+                width: 50%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+               
+                .row{
+                    width: 100%;
+                    justify-content: flex-end;
+                    .so-links{
+                        // width: 10%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        a{
+                            color: #cfcccc;
+                            font-size: 1.5rem;
+                            margin: 0 1rem;
+
+                            &:nth-child(1):hover{
+                                color: #3b5998;
+                                
+                            }
+                            &:nth-child(2):hover{
+                                color: #ff0000;
+                            }
+                            &:nth-child(3):hover{
+                                color: #0072b1;
+                            }
+                            &:nth-child(4):hover{
+                                color: #860d54;
+                            }
+                        }
+                    }
+                }
+                .infoTable{
+                    width: 100%;
+                    height: 85%;
+                    background-color: #ffffff;
+                    margin: 1rem 0;
+                    
+                    td{
+                        &:first-child{
+                            color: #8b773f;
+                            font-size: .8rem;
+                        }
+                        &:nth-child(2){
+                            font-size: .8rem;
+                            font-weight: 600;
+                            text-align: left;
+                        }
+                    }
+
+                    
+                }
+            }
+        }
+    }
+    .techSheet{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 3rem;
+        .tech-title{
+            width: 100%;
+            border-bottom: solid 1px #cfcccc;
+            margin-bottom: 3rem;
+            h3{
+                font-size: 1.2rem;
+            }
+        }
+        .detailBox{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+         .infoBox{
+             width: 50%;
+             height: 100%;
+             td{
+                &:first-child{
+                    color: #8b773f;
+                    font-size: .8rem;
+                }
+                &:nth-child(2){
+                    font-size: .8rem;
+                    font-weight: 600;
+                    text-align: left;
+                }
+            }
+         }   
+         .imgBox{
+             width: 50%;
+             height: 100%;
+             padding: 1rem;
+             img{
+                 width: 100%;
+                 height: 100%;
+             }
+         }   
+        }
+    }
+
+  
+   
+}
+
+
+
+@media (max-width:767px) and (orientation:portrait){
+    p{
+        font-size: .8rem !important;
+        // padding: .5rem;
+        text-align: left;
+        letter-spacing: .15rem !important;
+        word-spacing: .5rem !important;
+    }
+    .marblePageId{
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-bottom: 20rem;
+        .identification{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            // background-color: #0072b1;
+            .row{
+                width: 100%;
+                margin-top: 3rem;
+                .title{
+                    width: 100%;
+                    border-bottom: 1px solid #cfcccc;
+                    h2{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+            .detailBox{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                // margin-bottom: 2rem;
+                margin-top: 5rem;
+                // background-color: #860d54;
+                .imgBox{
+                    width: 100%;
+                    height: 100%;
+                    padding: 1rem;
+                    border: 1px solid #eeeeee;
+                    background-color: rgb(235, 236, 236);
+                }
+                .infoBox{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    // background-color: brown;
+                    padding: 1rem;
+                    .row{
+                        width: 100%;
+                        justify-content: flex-end;
+                        .so-links{
+                            // width: 10%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            a{
+                                color: #cfcccc;
+                                font-size: 1.5rem;
+                                margin: 0 1rem;
+    
+                                &:nth-child(1):hover{
+                                    color: #3b5998;
+                                    
+                                }
+                                &:nth-child(2):hover{
+                                    color: #ff0000;
+                                }
+                                &:nth-child(3):hover{
+                                    color: #0072b1;
+                                }
+                                &:nth-child(4):hover{
+                                    color: #860d54;
+                                }
+                            }
+                        }
+                    }
+                    .infoTable{
+                        width: 100%;
+                        height: 100%;
+                        background-color: #ffffff;
+                        margin: 1rem 0;
+    
+                        td{
+                            &:first-child{
+                                color: #8b773f;
+                                font-size: .8rem;
+                            }
+                            &:nth-child(2){
+                                font-size: .8rem;
+                                font-weight: 600;
+                                text-align: left;
+                            }
+                        }
+    
+                        
+                    }
+                }
+            }
+        }
+        .techSheet{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            margin-top: 3rem;
+            .tech-title{
+                width: 100%;
+                border-bottom: solid 1px #cfcccc;
+                margin-bottom: 3rem;
+                h3{
+                    font-size: 1.2rem;
+                }
+            }
+            .detailBox{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+             .infoBox{
+                 width: 100%;
+                 height: 100%;
+                 order: 1;
+                 td{
+                    &:first-child{
+                        color: #8b773f;
+                        font-size: .8rem;
+                    }
+                    &:nth-child(2){
+                        font-size: .8rem;
+                        font-weight: 600;
+                        text-align: left;
+                    }
+                }
+             }   
+             .imgBox{
+                 width: 100%;
+                 height: 100%;
+                 padding: 1rem;
+                 order:0;
+                 img{
+                     width: 100%;
+                     height: 70%;
+                 }
+             }   
+            }
+        }
+        .more-info{
+            width: 100%;
+
+
+        }
+    
+      
+       
+    }
+}
